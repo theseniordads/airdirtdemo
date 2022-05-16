@@ -22,10 +22,10 @@ Full assembler source for "The Air Dirt Demo" by The Senior Dads, which was rele
 * `INCLUDES` - Various macro and helpers code. Also includes `VSCROLL.S`, which contains the text for the credits at the end of the demo.
 * `SOUND` - Sound and assoicated handling routines. `.MOP` files are modules packed using Delta Force's module packer, and depacked using `NMDEPACK.S`. `.RAP` files are packed RAW samples, depacked using `NDEPACK.S`. All other files are concerned with the module replay routines.
 * `SRC_DATA` - Original versions of sound and graphics, as well as precalculation.
-..* `DAT_PREP` - Creation of the 32x16 font in `MAKEFONT.S`, and creation of the "tunnel" effect in `TUNNEL.GFA`. (GFA v3)
-..* `GFX` - Source graphics. Formats used are:
-....* `.PC1` - Low res Degas Elite image.
-....* `.IFF` - Low res Deluxe Paint image.
-....* `.TPI` - Low res True Paint image.
-....* `.GIF` - GIF files exported from the web site to be used in the "Presents..." screen.
-..* `SOUND` - `.MOD` are Noisetracker compatible modules, `.RAW` is a raw sample .
+  * `DAT_PREP` - Creation of the 32x16 font in `MAKEFONT.S`, and creation of the "tunnel" effect in `TUNNEL.GFA`. (GFA v3)
+  * `GFX` - Source graphics. Formats used are:
+    * `.PC1` - Low res Degas Elite image.
+    * `.IFF` - Low res Deluxe Paint image.
+    * `.TPI` - Low res True Paint image.
+    * `.GIF` - GIF files exported from the web site to be used in the "Presents..." screen.
+  * `SOUND` - `.MOD` are Noisetracker compatible modules, `.RAW` is a raw sample .
