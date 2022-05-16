@@ -8,8 +8,9 @@ Full assembler source for "The Air Dirt Demo" by The Senior Dads, which was rele
 * Devpac 3 to assemble the code.
 * Atomix packer or better to pack the executable.
 
-## How to assemble.
+## How to assemble
 * Load "MAIN.S" into Devpac 3.
+* Make sure settings are set to assemble to Motorola 68030!
 * Assemble to executable file "MAIN.PRG".
 * Rename exectuable to "AIR_DIRT.PRG".
 * Pack "AIR_DIRT.PRG" with packer.
