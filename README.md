@@ -17,7 +17,7 @@ Full assembler source for "The Air Dirt Demo" by The Senior Dads, which was rele
 * Run "AIR_DIRT.PRG".
 
 ## Folders
-* `AIR_DIRT.SED` - Original compiled demo and accompanying README.
+* `AIR_DIRT.SED` - Original compiled demo and accompanying [README](https://github.com/theseniordads/airdirtdemo/blob/main/AIR_DIRT.SED/AIR_DIRT.TXT).
 * `GRAPHICS` - Graphics, in Degas Elite PI1 files and raw 16-bit 320x200 true colour images. There's also `CRAPFONT.DAT`, a 1 plane 32x16 font, and various `.ASA` files which contain screen configuration data.
 * `INCLUDES` - Various macro and helpers code. Also includes `VSCROLL.S`, which contains the text for the credits at the end of the demo.
 * `SOUND` - Sound and assoicated handling routines. `.MOP` files are modules packed using Delta Force's module packer, and depacked using `NMDEPACK.S`. `.RAP` files are packed RAW samples, depacked using `NDEPACK.S`. All other files are concerned with the module replay routines.
